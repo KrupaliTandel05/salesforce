@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title = "Edit Parent Account">
+        <lightning-combobox value = {value} placeholder="Select parent account" options = {options} onchange={handleChanges}></lightning-combobox>
+
+        <p>Selected Account {value}</p>
+
+        <lightning-button title = "CLick to Save" label ='Save' onclick = {handleSave}  ></lightning-button>
+
+    </lightning-card>
+    
+</template>
